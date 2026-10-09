@@ -1,3 +1,227 @@
+
+/* =================================
+   SKYCLEAN - BLACK THEME
+   Add this at the bottom of style.css
+================================= */
+
+:root {
+  --blue: #60a5fa;
+  --cyan: #22d3ee;
+  --green: #4ade80;
+  --ink: #f5f5f5;
+  --muted: #b0b0b0;
+  --bg: #000000;
+  --white: #111111;
+  --line: #292929;
+}
+
+/* Main website */
+body {
+  background: #000000;
+  color: #f5f5f5;
+}
+
+/* Navigation bar */
+.nav {
+  background: rgba(0, 0, 0, 0.94);
+  border-bottom: 1px solid #292929;
+}
+
+nav {
+  color: #e5e5e5;
+}
+
+nav a:hover,
+.social:hover {
+  color: var(--cyan);
+}
+
+.nav-btn {
+  border-color: #444;
+}
+
+/* Logo */
+.brand-mark {
+  background: linear-gradient(135deg, #222, #555);
+  color: #fff;
+}
+
+.brand > span:last-child > span {
+  color: var(--green);
+}
+
+/* Main hero section */
+.hero {
+  background:
+    radial-gradient(circle at 75% 35%, #102027 0, transparent 40%),
+    linear-gradient(180deg, #000, #080808);
+}
+
+.hero h1 em {
+  color: var(--green);
+}
+
+.lead,
+.section-sub {
+  color: var(--muted);
+}
+
+.primary {
+  background: #fff;
+  color: #000;
+}
+
+.ghost {
+  background: #111;
+  color: #fff;
+  border-color: #444;
+}
+
+/* Air-cleaning illustration */
+.hero-art {
+  background: linear-gradient(#101b20, #090909 62%, #101810);
+  border-color: #292929;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.5);
+}
+
+.sun {
+  background: #d5c477;
+}
+
+.cloud {
+  background: #aab5bd;
+}
+
+.cloud:before,
+.cloud:after {
+  background: #aab5bd;
+}
+
+.pod {
+  background: #151515;
+  border-color: #444;
+  color: var(--green);
+}
+
+.pod small {
+  color: #ddd;
+}
+
+.ropes {
+  border-bottom-color: #777;
+}
+
+.air-dirty {
+  color: #999;
+}
+
+.air-clean {
+  color: var(--cyan);
+}
+
+/* General sections and cards */
+.section {
+  background-color: #000;
+}
+
+.card,
+.tech,
+.person,
+.contact-box {
+  background: #111;
+  color: #f5f5f5;
+  border-color: #292929;
+  box-shadow: none;
+}
+
+.card p,
+.tech p,
+.person p,
+.contact p {
+  color: var(--muted);
+}
+
+/* Notes */
+.note {
+  background: #101a12;
+  color: #c8e6ce;
+  border-left-color: var(--green);
+}
+
+.note strong {
+  color: var(--green);
+}
+
+/* Process section */
+.dark {
+  background: #080808;
+  color: #fff;
+}
+
+.flow-card {
+  background: #121212;
+  border-color: #303030;
+}
+
+/* Team section */
+.team-section {
+  background: #080808;
+}
+
+.person {
+  border-color: #292929;
+}
+
+.avatar {
+  background: linear-gradient(135deg, #222, #153327);
+  color: var(--green);
+}
+
+/* Timeline */
+.timeline {
+  border-top-color: #333;
+}
+
+.timeline > div {
+  border-right-color: #292929;
+}
+
+.timeline span {
+  background: #222;
+  color: #fff;
+}
+
+/* Contact section */
+.contact {
+  background: linear-gradient(135deg, #0b1114, #080d09);
+}
+
+.contact-box {
+  border-color: #292929;
+}
+
+.social {
+  border-bottom-color: #292929;
+}
+
+/* Footer */
+footer {
+  background: #050505;
+  color: #aaa;
+  border-top: 1px solid #292929;
+}
+
+/* Mobile menu */
+.menu {
+  color: #fff;
+}
+
+/* Selection color */
+::selection {
+  background: #4ade80;
+  color: #000;
+}
+
 :root{
   --blue:#1177d7; --cyan:#28b9e8; --green:#35a95b; --ink:#10243b;
   --muted:#617085; --bg:#f6fbff; --white:#fff; --line:#dce9f3;
